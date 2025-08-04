@@ -1,15 +1,6 @@
 
 ---
 
-Let me know if you'd like to include:
-
-- Badge shields (build, license, stars, etc.)
-- A GIF or screenshot of the UI in action
-- Direct `.dmg` or `.AppImage` download links
-
-Once added, save this as `README.md` in your root project folder and run:
-
-```bash
-git add README.md
-git commit -m "Add README"
-git push origin main
+Let me know if you also want:
+- a `CONTRIBUTING.md` for open source collaboration
+- GitHub Actions CI to auto-build your `.dmg` and `.AppImage` on push/release

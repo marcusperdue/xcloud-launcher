@@ -21,12 +21,12 @@
       "target": "dmg",
       "icon": "icon.icns"
     },
-    "linux": {
-      "target": ["AppImage", "deb"],
-      "category": "Game",
-      "icon": "icon.png",
-      "maintainer": "Marcus Perdue <marcusperduee@gmail.com>"
-    }
+"linux": {
+  "target": ["AppImage", "deb"],
+  "category": "Game",
+  "icon": "icon.png",
+  "maintainer": "Marcus Perdue <marcusperduee@gmail.com>"
+}
   },
   "devDependencies": {
     "electron": "^29.0.0",
