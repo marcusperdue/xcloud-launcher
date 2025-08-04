@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Xbox Cloud</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: #000;
+      color: #0f0;
+      font-family: monospace;
+    }
+    #status {
+      position: fixed;
+      top: 10px;
+      left: 10px;
+      z-index: 10000;
+    }
+  </style>
+</head>
+<body>
+  <div id="status">🎮 Scanning for controllers...</div>
+  <script>
+    setInterval(() => {
+      const pads = navigator.getGamepads?.();
+      const connected = Array.from(pads || []).filter(p => p);
+      const status = document.getElementById('status');
+      status.textContent = connected.length > 0
+        ? `🎮 ${connected[0].id}`
+        : '🎮 No controller connected';
+    }, 1500);
+  </script>
+</body>
+</html>
