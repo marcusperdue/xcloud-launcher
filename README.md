@@ -1,7 +1,7 @@
 # 🎮 XCloud Launcher
 
-**XCloud Launcher** is a polished, cross-platform desktop launcher for [Xbox Cloud Gaming (xCloud)](https://xbox.com/play), designed specifically for **macOS** and **Linux**.  
-It provides native-like streaming with auto-login, gamepad detection, and more — no browser needed.
+**XCloud Launcher** is a sleek, cross-platform desktop launcher for [Xbox Cloud Gaming (xCloud)](https://xbox.com/play), tailored for **macOS** and **Linux**.  
+It provides native-like gameplay with auto-login, gamepad detection, and more — no browser needed.
 
 ![XCloud Launcher](./icon.png)
 
@@ -10,13 +10,13 @@ It provides native-like streaming with auto-login, gamepad detection, and more �
 ## 🚀 Features
 
 - ✅ Auto-login to [xbox.com/play](https://xbox.com/play)
-- ✅ Persistent session via cookie/localStorage
+- ✅ Persistent login via cookies/localStorage
 - 🎮 Gamepad detection and support
 - 🎨 Custom native launcher UI
-- 🖥️ macOS `.dmg` and Linux `.AppImage` support
-- 🌒 Optional dark/light mode (coming soon)
-- 🎮 Gamepad-to-mouse support (planned)
-- 📦 App packaging with custom icon
+- 🖥️ Supports macOS `.dmg` and Linux `.AppImage`
+- 🌒 Dark/light theme toggle *(coming soon)*
+- 🕹️ Gamepad-to-mouse support *(planned)*
+- 📦 Built with custom app icon and packaging
 
 ---
 
@@ -24,7 +24,7 @@ It provides native-like streaming with auto-login, gamepad detection, and more �
 
 - [Electron](https://www.electronjs.org/)
 - [Node.js](https://nodejs.org/)
-- HTML + CSS + JS
+- HTML, CSS, and JavaScript
 
 ---
 
@@ -36,7 +36,9 @@ It provides native-like streaming with auto-login, gamepad detection, and more �
 - npm ≥ 9
 - macOS (ARM64) or Linux (x64 / ARM64)
 
-### 🔨 Build Locally
+---
+
+### 🔨 Build from Source
 
 ```bash
 git clone https://github.com/marcusperdue/xcloud-launcher.git
