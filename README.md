@@ -29,16 +29,13 @@
 ### 🐧 Linux (AppImage)
 
 ``` bash
-curl -L https://github.com/marcusperdue/xcloud-launcher/releases/latest/download/XCloud-Launcher-1.0.0.AppImage -o xcloud-launcher.AppImage
-chmod +x xcloud-launcher.AppImage
-./xcloud-launcher.AppImage
+curl -L https://github.com/marcusperdue/xcloud-launcher/releases/latest/download/XCloud.Launcher-1.0.0.AppImage -o xcloud-launcher.AppImage && chmod +x xcloud-launcher.AppImage && ./xcloud-launcher.AppImage
 ```
 
 ### 🐧 Linux (Debian/Ubuntu)
 
 ```bash
-curl -L https://github.com/marcusperdue/xcloud-launcher/releases/latest/download/xcloud-launcher_1.0.0_amd64.deb -o xcloud-launcher.deb
-sudo dpkg -i xcloud-launcher.deb
+curl -L https://github.com/marcusperdue/xcloud-launcher/releases/latest/download/xcloud-launcher_1.0.0_amd64.deb -o xcloud-launcher.deb && sudo dpkg -i xcloud-launcher.deb
 ```
 
 ### 🍎 macOS (Apple Silicon)
