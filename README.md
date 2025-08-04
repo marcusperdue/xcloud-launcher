@@ -2,7 +2,10 @@
 
 **XCloud Launcher** is a native desktop app for [Xbox Cloud Gaming](https://xbox.com/play), designed for **Linux** and **macOS** users who want a streamlined, browser-free experience. Built with Electron, it features auto-login, gamepad support, and native packaging for `.AppImage`, `.deb`, and `.dmg`.
 
-![XCloud Launcher](./icon.png)
+<p align="center">
+  <img src="./icon.png" alt="XCloud Launcher" width="150"/>
+</p>
+
 
 ---
 
